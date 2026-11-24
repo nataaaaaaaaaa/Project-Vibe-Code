@@ -117,19 +117,6 @@ Empat skenario disimulasikan. Teks pesan di bawah adalah usulan rancangan, bukan
 - **Privasi:** hanya data dummy; tidak mengumpulkan data pribadi nyata.
 - **Performa:** halaman tampil kurang dari 3 detik; kegagalan hanya disimulasikan, bukan benar-benar terhubung ke server.
 
-## Kriteria penerimaan
-
-Prototipe dianggap selesai jika semua poin berikut terpenuhi.
-
-- [ ] Alur pendaftaran antrean bisa dijalankan dari beranda sampai nomor antrean.
-- [ ] Setiap proses menampilkan indikator dengan teks status.
-- [ ] Loading lebih dari 15 detik otomatis berpindah ke layar pemulihan.
-- [ ] Keempat skenario kegagalan menampilkan pesan awam, perkiraan waktu, dan tombol aksi yang sesuai.
-- [ ] Coba Lagi tidak menghapus data yang sudah diisi.
-- [ ] Jalur Daftar langsung di faskes menampilkan ringkasan data pendaftaran.
-- [ ] Panel pengembang bisa memicu skenario sukses dan gagal.
-- [ ] Tampilan nyaman di layar HP dan lolos cek kontras serta ukuran teks.
-
 ## Panduan teknis dan vibe coding
 
 Bagian ini dipakai sebagai arahan saat meminta AI membuat kodenya.
@@ -171,9 +158,3 @@ Skenario bisa dipilih lewat panel pengembang di samping ponsel, atau langsung le
 - Data riset hanya dari 3 responden usia 32–39 tahun dan belum mewakili lansia.
 - Kegagalan hanya disimulasikan, jadi hasil uji belum menggambarkan kondisi sistem yang sebenarnya.
 
-**Pertanyaan terbuka**
-
-- [ ] Apakah dosen punya template atau format PRD yang harus diikuti?
-- [ ] Apakah topik harus tetap Mobile JKN, atau bebas?
-- [ ] Apa maksud "PRD + skill": skill untuk AI (file instruksi) atau keterampilan yang dipakai?
-- [ ] Apakah kodenya nanti benar-benar harus dibuat, atau cukup PRD?
